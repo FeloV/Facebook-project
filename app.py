@@ -134,3 +134,5 @@ def chatting():
 #     var=[titels,email]
 #     cursor.execute("insert into posts(titles,Email) values (%s,%s)",var)
 #     return render_template("page.html")
+if __name__=='__main__':
+  app.run(debug=True)
